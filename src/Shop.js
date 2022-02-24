@@ -14,12 +14,12 @@ export default class Shop extends Component {
         },
         {
           id: Math.random(),
-          label: 'Un Plumbus',
+          label: 'Un Test',
           price: 499,
         },
         {
           id: Math.random(),
-          label: 'Un ordinateur Machintosh',
+          label: 'Un Mac',
           price: 1200,
         },
       ],
