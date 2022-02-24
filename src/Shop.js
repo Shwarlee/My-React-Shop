@@ -46,7 +46,7 @@ export default class Shop extends Component {
     this.removeItem = (item) => {
       this.setState({
         ...this.state,
-        cart: this.state.cart.filter((cartItem) => cartItem.id !== item.id),
+        cart: this.state.cart.filter((cartItem) => cartItem.id != item.id),
       });
     };
   }
